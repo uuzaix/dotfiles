@@ -1,0 +1,12 @@
+[user]
+	email = larisa.dolgova@gmail.com
+	name = Larisa Dolgova
+[push]
+	default = simple
+[merge]
+        conflictstyle = diff3
+[alias]
+        co = checkout
+        br = branch
+        ci = commit
+        st = status
