@@ -13,7 +13,7 @@ _append_history () {
 }
 
 _update_window_title () {
-    echo -ne "\033]0;${USER}@${HOSTNAME}: ${PWD}\007"
+    echo -ne "\033]0;${USER-$USERNAME}@${HOSTNAME}: ${PWD}\007"
 }
 
 # Maintain $HISTORY_FILE and if this is an xterm set the title to
