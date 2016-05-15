@@ -1,0 +1,20 @@
+$include  /etc/inputrc
+
+set bell-style visible
+
+# show all matches on first tab
+set show-all-if-ambiguous on
+
+# disable arrow keys
+"\e[A": ""
+"\e[B": ""
+"\e[C": ""
+"\e[D": ""
+
+# search history entries with matching prefix on Ctrl-p/Ctrl-n
+"\C-p": history-search-backward
+"\C-n": history-search-forward
+
+# Ctrl-right/left: forward/backward word
+"\e[1;5C": forward-word
+"\e[1;5D": backward-word
