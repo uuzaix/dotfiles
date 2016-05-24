@@ -27,4 +27,6 @@ case $TERM in
         ;;
 esac
 
+test -f ~/Programming/dotfiles/dist/z.sh && . ~/Programming/dotfiles/dist/z.sh
+
 cd ~
